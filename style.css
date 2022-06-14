@@ -178,6 +178,8 @@
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 50px;
     align-content: center;
+    bottom: 15px
+    
     
 }
 
@@ -272,5 +274,6 @@
 
         .dois {
           display: flex;
+       
         }
        
