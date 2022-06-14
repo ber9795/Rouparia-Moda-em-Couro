@@ -18,7 +18,7 @@
       </label>
       <div class="logo"></div>
       <ul>
-        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="home.html">Home</a></li>
         <li><a href="Servico.html">Serviço</a></li>
         <li><a href="#">Contato</a></li>
      
@@ -32,9 +32,9 @@
           <h2>Fale Conosco</h2>     
           
           <form name="submit1" form autocomplete="on" action="https://cform.rac-0.fr/f/92c3c732eac1c832b574ca37bf2a46cb" method="POST">
-          <input type="text" class="field" name="nome" id="fnome" onblur="checkNome()" placeholder="Seu Nome" required>
-          <input type="text" class="field" name="email" id="e-mail" onblur="checkEmail()" placeholder="Seu Email"  required>
-          <input type="text" class="field" name="telefone" id="fone" onblur="validfone()" placeholder="Telefone"  required>
+          <input type="text" class="field" name="nome" id="fnome" onfocusout="checkNome()" placeholder="Seu Nome" required>
+          <input type="text" class="field" name="email" id="e-mail" onfocusout="checkEmail()" placeholder="Seu Email"  required>
+          <input type="text" class="field" name="telefone" id="fone" onfocusout="validfone()" placeholder="Telefone"  required>
           <textarea placeholder="Mensagem" name="mensage" class="field" required></textarea>
           <input type="submit" value="Enviar" id="button" class="btn" onsubmit="submit_form();" />
                </form>
