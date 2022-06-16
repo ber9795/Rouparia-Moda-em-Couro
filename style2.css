@@ -69,6 +69,7 @@
     }
 
     .texto1 {
+
       z-index: 1000;
     }
 
@@ -194,7 +195,7 @@
     .texto1 {
 
       position: absolute;
-      bottom: -320px;
+      bottom: -350px;
       margin-left: 35px;
       margin-right: 35px;
       min-height: 150px;
