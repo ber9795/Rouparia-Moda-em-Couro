@@ -66,6 +66,7 @@
       height: 100%;
     
       }
+
 #um {
 
        display: flex;
@@ -77,6 +78,7 @@
          justify-content: center;
         flex-direction: column;
         text-align: center; 
+        z-index: 1000;
       
         }
         
@@ -178,7 +180,8 @@
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 50px;
     align-content: center;
-    bottom: 15px
+    bottom: 15px;
+    z-index: -1;
     
     
 }
@@ -275,6 +278,6 @@
 
         .dois {
           display: flex;
-       
+          z-index: -1;
         }
        

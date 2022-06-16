@@ -67,7 +67,7 @@
     justify-content: center;
     bottom: 1px;
     }
-    .s-btn {
+      .s-btn {
       color: white;
       font-size: 20px;
       transition: 0.4%;
@@ -80,10 +80,11 @@
 
    .container {
 
-      position: relative;
+      position: block;
       height: 100%;
     
       }
+
       .container:after{
         content: '';
         position: absolute;
@@ -91,11 +92,11 @@
         height: 100%;
         left: 0;
         top: 0;
-        background: url("img/bg.jpg") no-repeat center;
         background-size: cover;
         filter: blur(50px);
         z-index: -1;
     }
+
     .tt{
         max-width: 850px;
         display: grid;
@@ -106,12 +107,6 @@
         margin-top: 1px;
         background-color: #fff;
         box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    }
-    
-    .left{
-        background: url("img/bg.jpg") no-repeat center;
-        background-size: cover;
-        height: 100%;
     }
     
     .right{
@@ -233,14 +228,20 @@
       background: none;
       color: #0082e6;
     }
+
+ 
+
     #check:checked ~ ul{
       left: 0;
     }
 
 
+
+
     .footer {
       justify-content: center;
       bottom: -10%;
+      
     }
 
   }
