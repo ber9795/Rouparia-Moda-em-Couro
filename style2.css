@@ -177,7 +177,12 @@
       left: 0;
     }
 
+.texto1{
+  justify-content: center;
+  top: 90px;
 
+
+}
     .footer {
       justify-content: center;
       bottom: -10%;
@@ -195,7 +200,7 @@
     .texto1 {
 
       position: absolute;
-      bottom: -350px;
+      bottom: -300px;
       margin-left: 35px;
       margin-right: 35px;
       min-height: 150px;

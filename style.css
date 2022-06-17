@@ -232,9 +232,14 @@
       display: block;
     }
 
+    .textoo {
+      justify-content: center;
+      margin-left: -90px;
+    }
+
     .footer {
       justify-content: center;
-      bottom: -620%;
+      bottom: -560%;
     }
 
   }
