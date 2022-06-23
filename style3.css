@@ -1,258 +1,258 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-    background-repeat: no-repeat;
-    background-size:20%;
-    background-color: #ff66c1;
-  }
-  nav{
-    background: #ff66c1;
-    height: 80px;
-    width: 100%;
-  }
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-repeat: no-repeat;
+  background-size:20%;
+  background-color: #ff66c1;
+}
+nav{
+  background: #ff66c1;
+  height: 80px;
+  width: 100%;
+}
 
 .logo {
-  background-image: url(1.jpg);
-  width:auto;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
+background-image: url(1.jpg);
+width:auto;
+height: 100px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left;
 }  
 
 
 
-  nav ul{
-    float: right;
-    margin-right: 20px;
-    margin-top: -6%;
+nav ul{
+  float: right;
+  margin-right: 20px;
+  margin-top: -6%;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.footer {
+  position:absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 1px;
+  }
+    .s-btn {
+    color: white;
+    font-size: 20px;
+    transition: 0.4%;
+    margin: 10px;
+  }
+  
+  .s-btn:hover {
+    color: pink;
+  }
+
+ .container {
+
+    position: block;
+    height: 100%;
+  
+    }
+
+    .container:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-size: cover;
+      filter: blur(50px);
+      z-index: -1;
+  }
+
+  .tt{
+      max-width: 850px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 4px;
+      background-color: #fff;
+      box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  }
+  
+  .right{
+      padding: 25px 40px;
+  }
+  
+  h2{
+      position: relative;
+      padding: 0 0 10px;
+      margin-bottom: 10px;
+  }
+  
+  h2:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px;
+      background-color: #1b9bff;
+  }
+  
+  .field{
+      width: 100%;
+      border: 2px solid rgba(0, 0, 0, 0);
+      outline: none;
+      background-color: rgba(230, 230, 230, 0.6);
+      padding: 0.5rem 1rem;
+      font-size: 1.1rem;
+      margin-bottom: 22px;
+      transition: .3s;
+  }
+  
+  .field:hover{
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea{
+      min-height: 150px;
+  }
+  
+  .btn{
+      width: 100%;
+      padding: 0.5rem 1rem;
+      background-color: #1b9bff;
+      color: #fff;
+      font-size: 1.1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: .3s;
+  }
+  
+
+
+  .btn:hover{
+      background-color: #1b9bff;
+  }
+  
+  
+  .field:focus{
+      border: 2px solid rgba(30,85,250,0.47);
+      background-color: #fff;
+  }
+  
+  @media screen and (max-width: 880px){
+      .contact-box{
+          grid-template-columns: 1fr;
+      }
+      .left{
+          height: 200px;
+      }
+  }
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+    
+
+
+
+#check{
+  display: none;
+}
+@media (max-width: 952qw0px){
+
+  
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 190vh;
+    background: #ff66c1;
+    top: 110px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
   }
   nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
   nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+    font-size: 20px;
   }
-  a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
   }
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+
+
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+
+  .field{
+   width: 320px;
   
   }
 
   .footer {
-    position:absolute;
-    width: 100%;
-    display: flex;
     justify-content: center;
-    bottom: 1px;
-    }
-      .s-btn {
-      color: white;
-      font-size: 20px;
-      transition: 0.4%;
-      margin: 10px;
-    }
+    bottom: -10%;
     
-    .s-btn:hover {
-      color: pink;
-    }
-
-   .container {
-
-      position: block;
-      height: 100%;
-    
-      }
-
-      .container:after{
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-size: cover;
-        filter: blur(50px);
-        z-index: -1;
-    }
-
-    .tt{
-        max-width: 850px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 4px;
-        background-color: #fff;
-        box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    }
-    
-    .right{
-        padding: 25px 40px;
-    }
-    
-    h2{
-        position: relative;
-        padding: 0 0 10px;
-        margin-bottom: 10px;
-    }
-    
-    h2:after{
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        height: 4px;
-        width: 50px;
-        border-radius: 2px;
-        background-color: #1b9bff;
-    }
-    
-    .field{
-        width: 100%;
-        border: 2px solid rgba(0, 0, 0, 0);
-        outline: none;
-        background-color: rgba(230, 230, 230, 0.6);
-        padding: 0.5rem 1rem;
-        font-size: 1.1rem;
-        margin-bottom: 22px;
-        transition: .3s;
-    }
-    
-    .field:hover{
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-    
-    textarea{
-        min-height: 150px;
-    }
-    
-    .btn{
-        width: 100%;
-        padding: 0.5rem 1rem;
-        background-color: #1b9bff;
-        color: #fff;
-        font-size: 1.1rem;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        transition: .3s;
-    }
-    
-
-
-    .btn:hover{
-        background-color: #1b9bff;
-    }
-    
-    
-    .field:focus{
-        border: 2px solid rgba(30,85,250,0.47);
-        background-color: #fff;
-    }
-    
-    @media screen and (max-width: 880px){
-        .contact-box{
-            grid-template-columns: 1fr;
-        }
-        .left{
-            height: 200px;
-        }
-    }
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
   }
-  
-      
 
-
-
-  #check{
-    display: none;
-  }
-  @media (max-width: 952qw0px){
-
-    
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 190vh;
-      background: #ff66c1;
-      top: 110px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      color: #0082e6;
-    }
-
- 
-
-    #check:checked ~ ul{
-      left: 0;
-    }
-
-
-    .field{
-     width: 320px;
-    
-    }
-
-    .footer {
-      justify-content: center;
-      bottom: -10%;
-      
-    }
-
-  }
-  section{
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
 
 
 
