@@ -237,13 +237,13 @@ a.active,a:hover{
 
 
   .field{
-   width: 320px;
+   width: 350px;
   
   }
 
   .footer {
     justify-content: center;
-    bottom: -10%;
+    bottom: -7%;
     
   }
 
@@ -253,7 +253,6 @@ section{
   background-size: cover;
   height: calc(100vh - 80px);
 }
-
 
 
 
