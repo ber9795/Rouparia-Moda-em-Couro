@@ -236,7 +236,10 @@
     }
 
 
-
+    .field{
+     width: 320px;
+    
+    }
 
     .footer {
       justify-content: center;
