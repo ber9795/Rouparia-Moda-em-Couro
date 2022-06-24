@@ -229,12 +229,11 @@ span:nth-child(10) {
 
   .row {
 
-    display: float;
-    justify-content: space-between;
-    width: 100%;
-    height: 0;
-    float: left;
+    display: block;
+
+
    }
+
 
   .textoo {
     justify-content: center;
@@ -243,7 +242,8 @@ span:nth-child(10) {
 
   .footer {
     justify-content: center;
-    bottom: -1px;
+ 
+    bottom: -450px;
   }
 
 }
