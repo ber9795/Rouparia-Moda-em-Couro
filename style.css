@@ -229,20 +229,25 @@ span:nth-child(10) {
 
   .row {
 
-    display: block;
-  }
+    display: float;
+    justify-content: space-between;
+    width: 100%;
+    height: 0;
+    float: left;
+   }
 
   .textoo {
     justify-content: center;
-    margin-left: -95px;
+    margin-left: -110px;
   }
 
   .footer {
     justify-content: center;
-    bottom: -460%;
+    bottom: -1px;
   }
 
 }
+
 section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
