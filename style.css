@@ -230,14 +230,11 @@ span:nth-child(10) {
   .row {
 
     display: block;
-
-
    }
-
 
   .textoo {
     justify-content: center;
-    margin-left: -110px;
+    margin-left: -150px;
   }
 
   .footer {
