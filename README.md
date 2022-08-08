@@ -1,5 +1,5 @@
 # Rouparia-Moda-em-Couro
-Pagina comercial feito em HTML, CSS e Javascript
+Web Site comercial feito em HTML, CSS e Javascript
 <br>
  [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
@@ -12,7 +12,7 @@ Pagina comercial feito em HTML, CSS e Javascript
 
 ## Descrição do Projeto
 
-A empresa Rouparia Moda em Couro(pequeno negócio) solicitou um web site onde mostrasse o negocio deles onde o cliente solicitasse o que precisa. Onde no fim sera costurado o vestuario em couro para o cliente.
+A empresa Rouparia Moda em Couro(pequeno negócio) solicitou um web site onde mostrasse o negocio deles onde o cliente solicitasse o que precisa. Onde no fim sera costurado o vestuario em couro para o cliente. O Site foi usado as cores e fontes conforme solicitado pelo cliente, e tambem é responsivel para celular.
 
 #status-do-Projeto
 <br>
@@ -28,7 +28,7 @@ Concluido
 www.roupariamodaemcouro.com.br
 
 ## Tecnologias utilizadas
-- Javascript, HTML, CSS
+- Javascript, HTML, CSS, Bootstrap
 - Foi usado como POST no Front end para enviar a mensagem ao email da empresa:
 https://cform.rac-0.fr/
 - Foi hospedado no Heroku
