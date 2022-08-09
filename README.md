@@ -14,11 +14,11 @@ Web Site comercial feito em HTML, CSS e Javascript
 
 A empresa Rouparia Moda em Couro(pequeno negócio) solicitou um web site onde mostrasse o negocio deles onde o cliente solicitasse o que precisa. Onde no fim sera costurado o vestuario em couro para o cliente. O Site foi usado as cores e fontes conforme solicitado pelo cliente, e tambem é responsivel para celular.
 
-#status-do-Projeto
+# status-do-Projeto
 <br>
 Concluido
 
-##funcionalidades-e-demonstração-da-aplicação
+## funcionalidades-e-demonstração-da-aplicação
 - `Funcionalidade 1`: Tela inicial com algumas fotos de produtos e menus
 - `Funcionalidade 2`: Tela explicando sobre o serviço
 - `Funcionalidade 3`: Tela onde tem um formulario que pode enviar uma mensagem a empresa solicitando o que precisa ou perguntas.
