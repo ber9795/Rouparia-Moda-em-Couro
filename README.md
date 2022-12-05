@@ -31,7 +31,7 @@ www.roupariamodaemcouro.com.br
 - Javascript, HTML, CSS, Bootstrap
 - Foi usado como POST no Front end para enviar a mensagem ao email da empresa:
 https://cform.rac-0.fr/
-- Foi hospedado no Heroku
+- Foi hospedado no Netilify
 
 ## Pessoas Desenvolvedoras do Projeto
 
